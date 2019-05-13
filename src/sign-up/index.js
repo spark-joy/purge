@@ -8,6 +8,5 @@ userSignUp.addEventListener('submit', (event) => {
     const formData = new FormData(userSignUp);
     const user = makeUser(formData);
 
-    console.log(user);
-
 });
+
