@@ -1,5 +1,5 @@
-//import makeUser from '../sign-up/make-user.js';
 import api from '../services/api.js';
+import createLink from './create-link.js';
 
 const profile = document.getElementById('profile');
 const avatarNode = document.getElementById('avatar');
