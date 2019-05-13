@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/sign-up/index.css">
+    <link rel="stylesheet" href="./src/navigation/navigation.css">
+    <link rel="stylesheet" href="./src/object/object.css">
+    <title>Object</title>
+</head>
+<body>
+    <header>
+        <h1 id="item-title">Game controller</h1>
+        <div id="profile">
+            <div class="avatar-wrapper">
+                <img id="avatar">
+            </div>
+            <div class="profile-info">
+                <p id="name">Emily</p>
+                <p id="kept">Kept: 0</p>
+                <p id="discarded">Discarded: 0</p>
+            </div>
+        </div>
+    </header>
+
+    <img src="./assets/objects/console.png" alt="">
+
+    <p id="item-description">This is a item description of a game controller</p>
+
+    <form>
+        <p>Does this SPARK JOY?!</p>
+        <div class="button-wrapper">
+            <div>
+                <label for="yes">Yes</label>
+                <input id="yes" type="radio" name="choice-button" value="yes">
+            </div>
+            <div>
+                <label for="no">No</label>
+                <input id="no" type="radio" name="choice-button" value="no">
+            </div>
+         </div>
+        <button>Sort</button>
+    </form>
+
+    <script type="module" src="src/object/object.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
