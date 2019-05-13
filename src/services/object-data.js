@@ -46,6 +46,6 @@ const shirt = {
     discarded: 1
 };
 
-const objectData = [computer, controller, football, guitar, rope, shirt]
+const objectData = [computer, controller, football, guitar, rope, shirt];
 
 export default objectData;
