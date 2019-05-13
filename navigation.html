@@ -11,40 +11,38 @@
 <body>
     <header>
         <h1>Your stuff</h1>
-        <div class="profile">
+        <div id="profile">
             <div class="avatar-wrapper">
-                <img id="avatar" src="./assets/avatars/game.png" alt="">
+                <img id="avatar">
             </div>
             <div class="profile-info">
-                <p>Emily</p>
-                <p>Kept: 0</p>
-                <p>Discarded: 0</p>
+                <p id="name">Emily</p>
+                <p id="kept">Kept: 0</p>
+                <p id="discarded">Discarded: 0</p>
             </div>
         </div>
     </header>
 
-        <main>
-            <p>This is all of your stuff! Select each item one-by-one,
-                and decide whether it sparks joy or not.
-            </p>
+    <main>
+        <p>This is all of your stuff! Select each item one-by-one,
+            and decide whether it sparks joy or not.
+        </p>
 
-            <div class="object-wrapper">
-                <div class="row">
-                    <img src="./assets/objects/console.png" alt="">
-                    <img src="./assets/objects/football.png" alt="">
-                    <img src="./assets/objects/computer.png" alt="">
-                </div>
-                <div class="row">
-                    <img src="./assets/objects/guitar.png" alt="">
-                    <img src="./assets/objects/rope.png" alt="">
-                    <img src="./assets/objects/shirt.png" alt="">
-                </div>
+        <div class="object-wrapper">
+            <div class="row">
+                <img src="./assets/objects/console.png" alt="">
+                <img src="./assets/objects/football.png" alt="">
+                <img src="./assets/objects/computer.png" alt="">
             </div>
+            <div class="row">
+                <img src="./assets/objects/guitar.png" alt="">
+                <img src="./assets/objects/rope.png" alt="">
+                <img src="./assets/objects/shirt.png" alt="">
+            </div>
+        </div>
 
-        </main>
+    </main>
 
-    
-
-    
+    <script type="module" src="src/navigation/navigation.js"></script>
 </body>
 </html>
