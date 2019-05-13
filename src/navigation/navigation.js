@@ -13,3 +13,4 @@ avatarNode.src = './assets/avatars/' + user.character + '.png';
 nameNode.textContent = user.name;
 keptNode.textContent = 'Kept: ' + user.kept;
 discardedNode.textContent = 'Discarded: ' + user.discarded;
+
