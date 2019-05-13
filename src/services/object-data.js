@@ -22,7 +22,7 @@ const football = {
     discarded: 1
 };
 
-const guitar =  {
+const guitar = {
     id: 'guitar',
     title: 'Guitar',
     description: 'Your guitar.',

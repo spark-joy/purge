@@ -37,7 +37,6 @@ header {
 .object-wrapper {
     margin: 0 auto;
     display: flex;
-    /* justify-content: space-evenly; */
     flex-flow: wrap;
     height: 300px;
     width: 700px;
@@ -49,6 +48,6 @@ img {
 }
 
 
-p {
-    font-size: 20px;
+.nav-description {
+    font-size: 30px;
 }

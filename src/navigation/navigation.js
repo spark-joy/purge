@@ -3,7 +3,6 @@ import createLink from './create-link.js';
 import objectData from '../services/object-data.js';
 
 
-const profile = document.getElementById('profile');
 const avatarNode = document.getElementById('avatar');
 const nameNode = document.getElementById('name');
 const keptNode = document.getElementById('kept');
