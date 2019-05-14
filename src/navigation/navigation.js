@@ -41,6 +41,6 @@ var countdownTimer = setInterval(function() {
 
     if(timeLeft <= 0) {
         clearInterval(countdownTimer);
-        window.location = './index.html';
+        // window.location = './index.html';
     }
 }, 1000);
