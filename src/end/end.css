@@ -1,0 +1,19 @@
+h1{
+    margin: 0 auto;
+}
+
+#results-wrapper {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.results-box {
+    border: 1px solid green;
+    width: 200px;
+    height: 400px;
+}
+
+#profile {
+    margin: 0 auto;
+}
