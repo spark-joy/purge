@@ -52,6 +52,9 @@ img {
     font-size: 30px;
 }
 
-.visited {
-    background-color: red;
+img.visited {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    opacity: .3;
 }
