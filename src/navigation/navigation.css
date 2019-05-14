@@ -51,3 +51,10 @@ img {
 .nav-description {
     font-size: 30px;
 }
+
+img.visited {
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    opacity: .3;
+}

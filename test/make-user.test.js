@@ -12,8 +12,6 @@ test('make user out of filled out form', function(assert) {
     const expected = {
         name: 'Emily',
         character: 'sport',
-        kept: 0,
-        discarded: 0,
         keptArray: [],
         discardedArray: []
     };

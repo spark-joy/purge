@@ -1,0 +1,24 @@
+#item-title {
+    margin: 0 auto;
+}
+
+#results-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.results-box {
+    width: 200px;
+    height: 200px;
+}
+
+#profile {
+    margin: 0 auto;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin: 5px;;
+}
+
