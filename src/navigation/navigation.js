@@ -11,7 +11,13 @@ const nav = document.getElementById('items');
 
 const user = api.getUser();
 
+const combined = [...user.keptArray, ...user.discardedArray];
+
 const objects = objectData;
+
+if(combined.length === objects.length) {
+    window.location = './end.html';
+}
 
 for(let i = 0; i < objects.length; i++) {
     const object = objects[i];
@@ -23,7 +29,6 @@ for(let i = 0; i < objects.length; i++) {
     } else {
         const link = createLink(object);
         nav.appendChild(link);
-    
     }
 }
 

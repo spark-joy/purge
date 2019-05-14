@@ -4,12 +4,10 @@ h1{
 
 #results-wrapper {
     display: flex;
-    border: 1px solid black;
     justify-content: space-between;
 }
 
 .results-box {
-    border: 1px solid green;
     width: 200px;
     height: 400px;
 }
@@ -17,3 +15,10 @@ h1{
 #profile {
     margin: 0 auto;
 }
+
+img {
+    height: 50px;
+    width: 50px;
+    margin: 5px;;
+}
+
