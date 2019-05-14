@@ -21,6 +21,8 @@ function createModalContent(id) {
     choiceParentNode.appendChild(no);
     choiceParentNode.appendChild(yes);
 
+    const user = api.getUser();
+
     formNode.addEventListener('submit', (event) => {
         event.preventDefault();
         

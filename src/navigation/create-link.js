@@ -21,7 +21,7 @@ function createLink(objectData) {
         modal.classList.add('modal-display');
         
         createModalContent(objectData.id);
-    })
+    });
 
     return link;
 
