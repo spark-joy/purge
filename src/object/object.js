@@ -23,8 +23,21 @@ const no = createNo();
 choiceParentNode.appendChild(no);
 choiceParentNode.appendChild(yes);
 
+let kept = 0;
+let discarded = 0;
+
 formNode.addEventListener('submit', (event) => {
     event.preventDefault();
+    const formData = new FormData(formNode);
+    const value = formData.get('choice-button');
+    console.log(value);
+    if(value === 'yes') {
+        return kept++;  
+    } else {
+        return discarded++;
+    }
+
+    
 
     window.location = 'navigation.HTML';
 });
