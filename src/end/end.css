@@ -1,4 +1,4 @@
-h1{
+#item-title {
     margin: 0 auto;
 }
 
@@ -9,7 +9,7 @@ h1{
 
 .results-box {
     width: 200px;
-    height: 400px;
+    height: 200px;
 }
 
 #profile {
