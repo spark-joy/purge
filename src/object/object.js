@@ -13,9 +13,13 @@ const searchParams = new URLSearchParams(window.location.search);
 const itemId = searchParams.get('id');
 const item = api.getItem(itemId);
 
+const user = api.getUser();
+console.log(user);
+
 title.textContent = item.title;
 description.textContent = item.description;
 image.src = './assets/objects/' + item.id + '.png';
+console.log(item.id);
 
 const yes = createYes();
 const no = createNo();
@@ -23,23 +27,21 @@ const no = createNo();
 choiceParentNode.appendChild(no);
 choiceParentNode.appendChild(yes);
 
-let kept = 0;
-let discarded = 0;
 
 formNode.addEventListener('submit', (event) => {
     event.preventDefault();
+    
     const formData = new FormData(formNode);
     const value = formData.get('choice-button');
-    console.log(value);
-    if(value === 'yes') {
-        return kept++;  
-    } else {
-        return discarded++;
-    }
-
     
-
-    window.location = 'navigation.HTML';
+    // window.location = './navigation.html';
+    
+    if(value === 'yes') {
+        user.keptArray.push(item.id); 
+    } else {
+        user.discardedArray.push(item.id);
+    }
+    
 });
 
 
