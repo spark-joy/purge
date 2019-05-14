@@ -34,14 +34,14 @@ formNode.addEventListener('submit', (event) => {
     const formData = new FormData(formNode);
     const value = formData.get('choice-button');
     
-    // window.location = './navigation.html';
+    window.location = './navigation.html';
     
     if(value === 'yes') {
         user.keptArray.push(item.id); 
     } else {
         user.discardedArray.push(item.id);
     }
-    
+    api.saveUser(user);
 });
 
 

@@ -13,8 +13,8 @@ const user = api.getUser();
 
 avatarNode.src = './assets/avatars/' + user.character + '.png';
 nameNode.textContent = user.name;
-keptNode.textContent = 'Kept: ' + user.kept;
-discardedNode.textContent = 'Discarded: ' + user.discarded;
+keptNode.textContent = 'Kept: ' + user.keptArray.length;
+discardedNode.textContent = 'Discarded: ' + user.discardedArray.length;
 
 const objects = objectData;
 
