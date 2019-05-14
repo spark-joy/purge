@@ -51,3 +51,7 @@ img {
 .nav-description {
     font-size: 30px;
 }
+
+.visited {
+    color: red;
+}

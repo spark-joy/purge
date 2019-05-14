@@ -6,6 +6,7 @@ const title = document.getElementById('item-title');
 const image = document.getElementById('item-image');
 const description = document.getElementById('item-description');
 const choiceParentNode = document.getElementById('choice-parent');
+const formNode = document.getElementById('form');
 
 
 const searchParams = new URLSearchParams(window.location.search);
@@ -21,6 +22,13 @@ const no = createNo();
 
 choiceParentNode.appendChild(no);
 choiceParentNode.appendChild(yes);
+
+formNode.addEventListener('submit', (event) => {
+    event.preventDefault();
+
+    window.location = 'navigation.HTML';
+});
+
 
 
 
