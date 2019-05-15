@@ -32,6 +32,8 @@ function createModalContent(id) {
 
         modal.classList.add('hidden');
         loadProfile();
+
+        window.location = './navigation.html';
     });
 }
 
