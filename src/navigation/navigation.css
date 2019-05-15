@@ -11,27 +11,32 @@ header {
 }
 
 #avatar {
-    height: 50px;
+    height: 100px;
+    width: 100px;
     display: flex;
     align-items: center;
+    border: 1px solid pink;
 }
 
 .avatar-wrapper {
-    height: 100%;
     display: flex;
     align-items: center;
+    border: 1px solid red;
 }
 
 #profile {
     display: flex;
     justify-content: space-around;
-    width: 200px;
+    width: 400px;
     height: 160px;
+    border: 1px solid black;
 }
 
 .profile-info {
     display: flex;
     flex-direction: column;
+    border: 1px solid green;
+    height: 100px;
 }
 
 .object-wrapper {
@@ -58,3 +63,17 @@ img.visited {
     margin: 50px;
     opacity: .3;
 }
+
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+
