@@ -11,9 +11,11 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: inline-block;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
     width: 100%;
 }
 
@@ -23,24 +25,20 @@ header {
     display: flex;
     align-items: center;
     width: 100px;
- 
 }
 
 #profile {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-end; */
+
+    position: absolute;
+    top: -36px;
+    right: 50px;
 
     
 }
 
-.profile-info {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
- 
- 
-}
 
 .profile-info p {
     margin: 9px;
@@ -119,6 +117,11 @@ button {
     transform: scale(1.2, 1.2);
     transition: transform, 1s;
     cursor: pointer;
+}
+
+#profile-span {
+    display: flex;
+    align-items: center;
 }
 
 
