@@ -4,6 +4,12 @@ body {
     margin: 0 auto;
 }
 
+#nav-main {
+    background-image: url('../../assets/background.png');
+    background-size: cover;
+    height: 600px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -49,8 +55,11 @@ header {
 }
 
 img {
-    width: 100px;
+    width: 80px;
     margin: 50px;
+    margin-left: 72px;
+    margin-top: 67px;
+    
 }
 
 
