@@ -1,6 +1,7 @@
 import api from '../services/api.js';
 import loadProfile from '../load-profile.js';
 
+
 let item;
 const user = api.getUser();
 const formNode = document.getElementById('form');
@@ -37,7 +38,7 @@ formNode.addEventListener('submit', (event) => {
     api.saveUser(user);
 
     modal.classList.add('hidden');
-
+    
     loadProfile();
 
 });

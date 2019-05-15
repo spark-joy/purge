@@ -9,13 +9,18 @@ body {
 
 button {
     all: unset;
+}
+
+.submit-play {
+    all: unset;
     border: 1px solid black;
     font-size: 1.3em;
     width: 100px;
     padding: 15px;
+    text-align: center;
 }
 
-button:hover {
+.submit-play:hover {
     background-color: black;
     color: white;
 }

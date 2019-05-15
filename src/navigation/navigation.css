@@ -106,3 +106,11 @@ button {
     text-align: center;
 }
 
+.item-button:hover {
+    transform: scale(1.2, 1.2);
+    transition: transform, 1s;
+    cursor: pointer;
+}
+
+
+
