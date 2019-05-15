@@ -22,3 +22,15 @@ img {
     margin: 5px;;
 }
 
+a {
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid black;
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
