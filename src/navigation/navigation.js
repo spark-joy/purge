@@ -36,11 +36,10 @@ var timeLeft = 10;
 
 var countdownTimer = setInterval(function() {
     const countdown = document.getElementById('timer');
-    countdown.textContent = timeLeft + 'seconds remaining';
+    countdown.textContent = timeLeft + 's remaining';
     timeLeft -= 1;
 
     if(timeLeft <= 0) {
         clearInterval(countdownTimer);
-        // window.location = './index.html';
     }
 }, 1000);

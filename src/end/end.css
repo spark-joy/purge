@@ -16,6 +16,9 @@
 
 #profile {
     margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
 }
 
 img {
@@ -35,5 +38,9 @@ a {
 a:hover {
     background-color: black;
     color: white;
+}
+
+#avatar {
+    height: 100px;
 }
 
