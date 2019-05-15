@@ -16,7 +16,7 @@ const user = api.getUser();
 setInterval(function(){
     const user = api.getUser();
     const combined = [...user.keptArray, ...user.discardedArray];
-    console.log(user);
+    // console.log(user);
     if(combined.length === objects.length) {
         console.log('hi');
         clearInterval();
