@@ -15,6 +15,7 @@ const combined = [...user.keptArray, ...user.discardedArray];
 
 const objects = objectData;
 
+
 if(combined.length === objects.length) {
     window.location = './end.html';
 }
@@ -32,11 +33,11 @@ for(let i = 0; i < objects.length; i++) {
     }
 }
 
+
 var timeLeft = 10;
 
 var countdownTimer = setInterval(function() {
     const countdown = document.getElementById('timer');
-    countdown.textContent = timeLeft + 's remaining';
     timeLeft -= 1;
 
     if(timeLeft <= 0) {
