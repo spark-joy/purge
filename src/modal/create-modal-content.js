@@ -1,6 +1,7 @@
 import api from '../services/api.js';
 import createYes from '../create-yes.js';
 import createNo from '../create-no.js';
+import loadProfile from '../load-profile.js';
 
 function createModalContent(id) {
     const title = document.getElementById('item-title');
@@ -15,13 +16,15 @@ function createModalContent(id) {
     description.textContent = item.description;
     image.src = './assets/objects/' + item.id + '.png';
 
-    const yes = createYes();
-    const no = createNo();
+    // const yes = createYes();
+    // const no = createNo();
 
-    choiceParentNode.appendChild(no);
-    choiceParentNode.appendChild(yes);
+    // choiceParentNode.appendChild(no);
+    // choiceParentNode.appendChild(yes);
 
     const user = api.getUser();
+
+    const modal = document.getElementById('modal');
 
     formNode.addEventListener('submit', (event) => {
         event.preventDefault();
@@ -29,7 +32,7 @@ function createModalContent(id) {
         const formData = new FormData(formNode);
         const value = formData.get('choice-button');
         
-        window.location = './navigation.html';
+        // window.location = './navigation.html';
         
         if(value === 'yes') {
             user.keptArray.push(item.id); 
@@ -37,6 +40,9 @@ function createModalContent(id) {
             user.discardedArray.push(item.id);
         }
         api.saveUser(user);
+
+        modal.classList.add('hidden');
+        loadProfile();
     });
 }
 

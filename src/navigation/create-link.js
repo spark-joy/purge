@@ -8,10 +8,8 @@ function createLink(objectData) {
     const image = document.createElement('img');
     image.src = './assets/objects/' + objectData.id + '.png';
 
-
     const searchParams = new URLSearchParams();
     searchParams.set('id', objectData.id);
-    // link.href = 'object.html?' + searchParams.toString();
 
     link.appendChild(image);
 
@@ -19,8 +17,11 @@ function createLink(objectData) {
         event.preventDefault();
         
         modal.classList.add('modal-display');
+        modal.classList.remove('hidden');
         
         createModalContent(objectData.id);
+
+       
     });
 
     return link;

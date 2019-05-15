@@ -64,10 +64,16 @@ img.visited {
     opacity: .3;
 }
 
-.modal-container {
-    width: 800px;
-    height: 650px;
-    background-color: blue;
 
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
 }
+
+.hidden {
+    display: none;
+}
+
 
