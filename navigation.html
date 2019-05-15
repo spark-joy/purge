@@ -12,9 +12,7 @@
     <header>
         <h1>Your stuff</h1>
         <div id="profile">
-            <div class="avatar-wrapper">
-                <img id="avatar">
-            </div>
+            <img id="avatar">
             <div class="profile-info">
                 <p id="name"></p>
                 <p id="kept"></p>
@@ -30,29 +28,39 @@
   
         <div id="items" class="object-wrapper">
         </div>
+       
     </main>
 
-    <section id="modal"  class="hidden">
-         <header>
-        <h1 id="item-title"></h1>
-        </header>
+    <div id="model-display">
+        <section id="modal"  class="hidden">
+            <header>
+                <h1 id="item-title"></h1>
+            </header>
+    
+            <img id="item-image">
+    
+            <p id="item-description"></p>
+    
+            <form id="form" class="choices">
+                <p>Does this SPARK JOY?!</p>
+                <div id="choice-parent" class="button-wrapper">
+                </div>
 
-        <img id="item-image">
+                <div class="buttons-wrapper">
+                    <div class="buttons">
+                        <label for="no">No</label>
+                        <input type="radio" id="no" value="no" name="choice-button">
+                    </div>
+                    <div class="buttons">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" value="yes" name="choice-button">
+                    </div>
 
-        <p id="item-description"></p>
-
-        <form id="form" class="choices">
-            <p>Does this SPARK JOY?!</p>
-            <div id="choice-parent" class="button-wrapper">
-            </div>
-            <label for="yes">Yes</label>
-            <input type="radio" id="yes" value="yes" name="choice-button">
-            <label for="no">No</label>
-            <input type="radio" id="no" value="no" name="choice-button">
-            <button>Sort</button>
-        </form>
-
-    </section>
+                </div>
+                <button>Sort</button>
+            </form>
+        </section>
+    </div>
 
     <script type="module" src="src/navigation/navigation.js"></script>
 </body>

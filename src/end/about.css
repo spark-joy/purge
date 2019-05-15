@@ -1,0 +1,19 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    height: 400px;
+    margin-top: 25px;
+}
+
+.about {
+    width: 250px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
