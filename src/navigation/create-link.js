@@ -18,6 +18,7 @@ function createLink(objectData) {
         
         modal.classList.add('modal-display');
         modal.classList.remove('hidden');
+        image.classList.add('visited');
         
         createModalContent(objectData.id);
     });

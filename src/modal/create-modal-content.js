@@ -31,9 +31,9 @@ function createModalContent(id) {
         api.saveUser(user);
 
         modal.classList.add('hidden');
+    
         loadProfile();
 
-        window.location = './navigation.html';
     });
 }
 
