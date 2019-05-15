@@ -23,7 +23,7 @@ function createLink(objectData) {
     });
 
     return link;
-
+    
 }
 
 export default createLink;
