@@ -1,7 +1,6 @@
 import api from './services/api.js';
 
 function loadProfile() {
-
     const avatarNode = document.getElementById('avatar');
     const nameNode = document.getElementById('name');
     const keptNode = document.getElementById('kept');

@@ -75,11 +75,27 @@ img.visited {
     background-color: white;
     border: 4px solid red;
     padding: 30px;
+    width: 300px;
   
+}
+
+header .model-display {
+    display: flex;
+    text-align: center;
 }
 
 .hidden {
     display: none;
 }
 
+.buttons-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
 
+.buttons {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

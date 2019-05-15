@@ -20,8 +20,6 @@ function createLink(objectData) {
         modal.classList.remove('hidden');
         
         createModalContent(objectData.id);
-
-       
     });
 
     return link;
