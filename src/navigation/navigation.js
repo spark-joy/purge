@@ -17,7 +17,6 @@ setInterval(function(){
     const combined = [...user.keptArray, ...user.discardedArray];
 
     if(combined.length === objects.length) {
-        console.log('hi');
         clearInterval();
         window.location = './end.html';
     }

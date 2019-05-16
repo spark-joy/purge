@@ -18,7 +18,6 @@ function avatarUser(user) {
         user.items = ['football', 'shirt', 'trophy', 'pills'];
         return user;
     }
-
 }
 
 export default avatarUser;

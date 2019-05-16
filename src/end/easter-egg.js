@@ -7,7 +7,7 @@ function easterEgg(user) {
 
         if(user.keptArray.includes(item)) {
             gif.classList.remove('no-egg');
-            easterEggMessage.textContent = 'You kept what your avatar would keep!';
+            easterEggMessage.textContent = `Your character isn't pissed you tossed their shit!`;
             return;
         } 
     }

@@ -16,7 +16,9 @@ function createModalContent(id) {
     item = api.getItem(id);
 
     yesButton.checked = false;
+    yesButton.required = true;
     noButton.checked = false;
+    noButton.required = true;
 
     title.textContent = item.title;
     description.textContent = item.description;

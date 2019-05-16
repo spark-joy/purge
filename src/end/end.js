@@ -14,7 +14,6 @@ const keptBox = document.getElementById('kept-box');
 const keptItems = user.keptArray;
 const discardedItems = user.discardedArray;
 
-
 displayIcons(keptItems, keptBox);
 displayIcons(discardedItems, discardedBox);
 
@@ -24,10 +23,4 @@ const keptResult = scoreKept(user.keptArray.length);
 const results = keptMessages[keptResult];
 resultMessage.textContent = user.name + ' ' + results;
 
-
-
 easterEgg(user);
-
-
-
-

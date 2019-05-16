@@ -64,3 +64,14 @@ a:hover {
 .no-egg {
     display: none;
 }
+
+#easter-egg-message {
+    font-weight: bold;
+    color: rgb(53, 123, 193);
+    font-size: 20px;
+}
+
+#result-text {
+    font-size: 20px;
+}
+
