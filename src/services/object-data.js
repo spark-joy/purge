@@ -3,7 +3,8 @@ const backpack = {
     title: 'Backpack',
     description: 'Your backpack.',
     kept: 1,
-    discarded: 1  
+    discarded: 1,
+    character: 'outdoor'
 };
 
 const balloon = {
@@ -130,7 +131,7 @@ const glasses = {
 const leatherJacket = {
     id: 'leather-jacket',
     title: 'Leather Jacket',
-    description: 'Your leather-jacket.',
+    description: 'Your leather jacket.',
     kept: 1,
     discarded: 1  
 };
@@ -178,7 +179,7 @@ const pants = {
 const phoneBook = {
     id: 'phone-book',
     title: 'Phone Book',
-    description: 'Your phone-book.',
+    description: 'Your phone book.',
     kept: 1,
     discarded: 1  
 };
@@ -194,7 +195,7 @@ const pills = {
 const pocketKnife = {
     id: 'pocket-knife',
     title: 'Pocket Knife',
-    description: 'Your pocket-knife.',
+    description: 'Your pocket knife.',
     kept: 1,
     discarded: 1  
 };
@@ -224,9 +225,9 @@ const shirt = {
 };
 
 const suitcase = {
-    id: 'suitecase',
-    title: 'Suitecase',
-    description: 'Your suitecase.',
+    id: 'suitcase',
+    title: 'Suitcase',
+    description: 'Your suitcase.',
     kept: 1,
     discarded: 1  
 };
@@ -251,7 +252,7 @@ const tools = {
 const topHat = {
     id: 'top-hat',
     title: 'Top Hat',
-    description: 'Your top-hat.',
+    description: 'Your top hat.',
     kept: 1,
     discarded: 1  
 };
@@ -289,10 +290,17 @@ const utensils = {
 };
 
 
-const objectData = [backpack, balloon, cactus, camera, cat, clock, 
-    computer, controller, diploma, dog, dress, floppyDisk, football, 
-    glasses, grill, guitar, leatherJacket, lock, manekiNeko, mom, 
-    money, pants, phoneBook, pills, pocketKnife, rope, rug, shirt, 
-    suitcase, telescope, tools, topHat, towels, trash, trophy, utensils];
+const objectData = [backpack, balloon, 
+    cactus, camera, cat, clock, computer, controller, 
+    diploma, dog, dress, 
+    floppyDisk, football, 
+    glasses, grill, guitar, 
+    leatherJacket, lock, 
+    manekiNeko, mom, money, 
+    pants, phoneBook, pills, pocketKnife, 
+    rope, rug, 
+    shirt, suitcase, 
+    telescope, tools, topHat, towels, trash, trophy, 
+    utensils];
 
 export default objectData;

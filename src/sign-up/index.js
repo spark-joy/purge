@@ -14,5 +14,3 @@ userSignUp.addEventListener('submit', (event) => {
     window.location = 'navigation.html';
 
 });
-
-

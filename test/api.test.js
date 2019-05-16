@@ -8,9 +8,6 @@ QUnit.testStart(() => {
 api.storage = sessionStorage;
 
 test('Save user object to local storage', function(assert) {
-    //Arrange
-    // Set up your parameters and expectations
-
     const user = {
         name: 'Emily',
         character: 'sport',
@@ -20,10 +17,6 @@ test('Save user object to local storage', function(assert) {
         discardedArray: []
     };
 
-    
-
-    //Act 
-    // Call the function you're testing and set the result to a const
     api.saveUser(user);
     const result = api.getUser();
     const expected = {
@@ -35,6 +28,5 @@ test('Save user object to local storage', function(assert) {
         discardedArray: []
     };
 
-    //Assert
     assert.deepEqual(result, expected);
 });

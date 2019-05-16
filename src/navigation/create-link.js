@@ -16,7 +16,6 @@ function createLink(objectData) {
 
     button.addEventListener('click', (event) => {
         event.preventDefault();
-        
 
         modal.classList.add('modal-display');
         modal.classList.remove('hidden');
