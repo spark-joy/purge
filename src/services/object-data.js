@@ -1,10 +1,9 @@
 const backpack = {
     id: 'backpack',
     title: 'Backpack',
-    description: 'Your backpack.',
+    description: 'Your backpack. This seems important...or not...',
     kept: 1,
     discarded: 1,
-    character: 'outdoor'
 };
 
 const balloon = {
@@ -18,7 +17,7 @@ const balloon = {
 const cat = {
     id: 'cat',
     title: 'Cat',
-    description: 'Your cat.',
+    description: 'Your cat. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -34,7 +33,7 @@ const camera = {
 const cactus = {
     id: 'cactus',
     title: 'Cactus',
-    description: 'Your cactus.',
+    description: 'Your cactus. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -47,11 +46,10 @@ const clock = {
     discarded: 1  
 };
 
-
 const computer = {
     id: 'computer',
     title: 'Computer',
-    description: 'Your computer.',
+    description: 'Your computer. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -59,7 +57,7 @@ const computer = {
 const controller = {
     id: 'controller',
     title: 'Controller',
-    description: 'Your game controller.',
+    description: 'Your game controller. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -91,7 +89,7 @@ const dress = {
 const floppyDisk = {
     id: 'floppy-disk',
     title: 'Floppy Disk',
-    description: 'Your floppy disk.',
+    description: 'Your floppy disk. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -99,7 +97,7 @@ const floppyDisk = {
 const football = {
     id: 'football',
     title: 'Football',
-    description: 'Your football.',
+    description: 'Your football. This seems important...or not...',
     kept: 1,
     discarded: 1
 };
@@ -107,7 +105,7 @@ const football = {
 const grill = {
     id: 'grill',
     title: 'Grill',
-    description: 'Your grill.',
+    description: 'Your grill. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -115,7 +113,7 @@ const grill = {
 const guitar = {
     id: 'guitar',
     title: 'Guitar',
-    description: 'Your guitar.',
+    description: 'Your guitar. This seems important...or not...',
     kept: 1,
     discarded: 1
 };
@@ -131,7 +129,7 @@ const glasses = {
 const leatherJacket = {
     id: 'leather-jacket',
     title: 'Leather Jacket',
-    description: 'Your leather jacket.',
+    description: 'Your leather jacket. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -187,7 +185,7 @@ const phoneBook = {
 const pills = {
     id: 'pills',
     title: 'Pills',
-    description: 'Your pills.',
+    description: 'Your pills. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -195,7 +193,7 @@ const pills = {
 const pocketKnife = {
     id: 'pocket-knife',
     title: 'Pocket Knife',
-    description: 'Your pocket knife.',
+    description: 'Your pocket knife. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -227,7 +225,7 @@ const shirt = {
 const suitcase = {
     id: 'suitcase',
     title: 'Suitcase',
-    description: 'Your suitcase.',
+    description: 'Your suitcase. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -236,7 +234,7 @@ const suitcase = {
 const telescope = {
     id: 'telescope',
     title: 'Telescope',
-    description: 'Your telescope.',
+    description: 'Your telescope. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };
@@ -276,7 +274,7 @@ const trash = {
 const trophy = {
     id: 'trophy',
     title: 'Trophy',
-    description: 'Your trophy.',
+    description: 'Your trophy. This seems important...or not...',
     kept: 1,
     discarded: 1  
 };

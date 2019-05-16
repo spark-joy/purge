@@ -29,3 +29,15 @@ img {
     font-size: 13px;
 }
 
+audio {
+    display: none;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+

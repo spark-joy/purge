@@ -48,7 +48,7 @@ img {
     width: 80px;
     margin: 50px;
     margin-left: 72px;
-    margin-top: 67px;
+    margin-top: 67px; 
 }
 
 
@@ -57,9 +57,6 @@ img {
 }
 
 img.visited {
-    width: 100px;
-    height: 100px;
-    margin: 50px;
     opacity: .3;
 }
 
@@ -81,6 +78,8 @@ img.visited {
     from { opacity: 0 }
     to { opacity: 1 }
  }
+
+
 
 header .model-display {
     display: flex;
@@ -113,6 +112,7 @@ button {
     transition: transform, 1s;
     cursor: pointer;
 }
+
 
 #profile-span {
     display: flex;
