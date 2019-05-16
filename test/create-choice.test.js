@@ -8,4 +8,3 @@ test('make yes button', function(assert) {
 
     assert.equal(dom.outerHTML, expected);
 });
-

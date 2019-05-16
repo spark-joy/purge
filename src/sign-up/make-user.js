@@ -5,6 +5,7 @@ function makeUser(formData) {
         keptArray: [],
         discardedArray: []
     };
+    
     return user;
 }
 

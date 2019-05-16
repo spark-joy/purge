@@ -15,7 +15,6 @@ function createNo() {
     div.appendChild(input);
 
     return div;
-
 }
 
 export default createNo;
