@@ -201,7 +201,7 @@ const pocketKnife = {
 const rope = {
     id: 'rope',
     title: 'Rope',
-    description: 'This is your rope.',
+    description: 'This is your rope. This seems important...or not...',
     kept: 1,
     discarded: 1 
 };
