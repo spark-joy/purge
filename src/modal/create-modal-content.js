@@ -36,6 +36,8 @@ formNode.addEventListener('submit', (event) => {
         user.discardedArray.push(item.id);
     }
     api.saveUser(user);
+
+    modal.classList.add('hidden');
     
     loadProfile();
 
