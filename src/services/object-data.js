@@ -128,7 +128,7 @@ const glasses = {
 
 const leatherJacket = {
     id: 'leather-jacket',
-    title: 'Leather Jacket',
+    title: 'Jacket',
     description: 'Your leather jacket. This seems important...or not...',
     kept: 1,
     discarded: 1  
@@ -144,7 +144,7 @@ const lock = {
 
 const manekiNeko = {
     id: 'maneki-neko',
-    title: 'Maneki Neko',
+    title: 'Neko',
     description: 'Your maneki neko.',
     kept: 1,
     discarded: 1  
@@ -176,7 +176,7 @@ const pants = {
 
 const phoneBook = {
     id: 'phone-book',
-    title: 'Phone Book',
+    title: 'Book',
     description: 'Your phone book.',
     kept: 1,
     discarded: 1  
@@ -192,7 +192,7 @@ const pills = {
 
 const pocketKnife = {
     id: 'pocket-knife',
-    title: 'Pocket Knife',
+    title: 'Knife',
     description: 'Your pocket knife. This seems important...or not...',
     kept: 1,
     discarded: 1  
