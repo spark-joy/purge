@@ -48,3 +48,19 @@ a:hover {
     font-size: 30px;
 }
 
+#gif {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-egg {
+    display: none;
+}
