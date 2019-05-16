@@ -1,6 +1,8 @@
 import api from '../services/api.js';
 import loadProfile from '../load-profile.js';
 import displayIcons from './display-icons.js';
+import scoreKept from './score-kept.js';
+import keptMessages from './kept-array-messages.js';
 
 loadProfile();
 const user = api.getUser(); 
@@ -14,3 +16,10 @@ const discardedItems = user.discardedArray;
 
 displayIcons(keptItems, keptBox);
 displayIcons(discardedItems, discardedBox);
+
+const resultMessage = document.getElementById('result-message');
+const keptResult = scoreKept(user.keptArray.length); 
+
+const results = keptMessages[keptResult];
+
+resultMessage.textContent = user.name + ' ' + results;
