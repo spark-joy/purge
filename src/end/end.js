@@ -21,6 +21,6 @@ const resultMessage = document.getElementById('result-message');
 const keptResult = scoreKept(user.keptArray.length); 
 
 const results = keptMessages[keptResult];
-resultMessage.textContent = user.name + ' ' + results;
+resultMessage.textContent = user.name + ', ' + results;
 
 easterEgg(user);
