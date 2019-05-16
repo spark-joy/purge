@@ -3,21 +3,30 @@ import createLink from './create-link.js';
 import objectData from '../services/object-data.js';
 import createVisitedIcon from '../object/create-visited-icon.js';
 import loadProfile from '../load-profile.js';
+import randomArray from '../services/random-array.js';
 
 
 loadProfile();
 
 const nav = document.getElementById('items');
 
+const objects = randomArray(objectData);
 const user = api.getUser();
 
-const combined = [...user.keptArray, ...user.discardedArray];
+setInterval(function(){
+    const user = api.getUser();
+    const combined = [...user.keptArray, ...user.discardedArray];
+    // console.log(user);
+    if(combined.length === objects.length) {
+        console.log('hi');
+        clearInterval();
+        window.location = './end.html';
+    }
+}, 1000);
 
-const objects = objectData;
 
-if(combined.length === objects.length) {
-    window.location = './end.html';
-}
+
+
 
 for(let i = 0; i < objects.length; i++) {
     const object = objects[i];
@@ -32,14 +41,14 @@ for(let i = 0; i < objects.length; i++) {
     }
 }
 
-var timeLeft = 10;
 
-var countdownTimer = setInterval(function() {
-    const countdown = document.getElementById('timer');
-    countdown.textContent = timeLeft + 's remaining';
-    timeLeft -= 1;
+// var timeLeft = 10;
 
-    if(timeLeft <= 0) {
-        clearInterval(countdownTimer);
-    }
-}, 1000);
+// var countdownTimer = setInterval(function() {
+//     const countdown = document.getElementById('timer');
+//     timeLeft -= 1;
+
+//     if(timeLeft <= 0) {
+//         clearInterval(countdownTimer);
+//     }
+// }, 1000);

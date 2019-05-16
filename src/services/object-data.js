@@ -1,3 +1,28 @@
+const backpack = {
+    id: 'backpack',
+    title: 'Backpack',
+    description: 'Your backpack.',
+    kept: 1,
+    discarded: 1  
+};
+
+const balloon = {
+    id: 'balloon',
+    title: 'Balloon',
+    description: 'Your balloon.',
+    kept: 1,
+    discarded: 1  
+};
+
+const cactus = {
+    id: 'cactus',
+    title: 'Cactus',
+    description: 'Your cactus.',
+    kept: 1,
+    discarded: 1  
+};
+
+
 const computer = {
     id: 'computer',
     title: 'Computer',
@@ -46,6 +71,6 @@ const shirt = {
     discarded: 1
 };
 
-const objectData = [computer, controller, football, guitar, rope, shirt];
+const objectData = [backpack, balloon, cactus, computer, controller, football, guitar, rope, shirt];
 
 export default objectData;
