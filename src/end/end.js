@@ -3,6 +3,7 @@ import loadProfile from '../load-profile.js';
 import displayIcons from './display-icons.js';
 import scoreKept from './score-kept.js';
 import keptMessages from './kept-array-messages.js';
+import easterEgg from '../end/easter-egg.js';
 
 loadProfile();
 const user = api.getUser(); 
@@ -23,3 +24,7 @@ const keptResult = scoreKept(user.keptArray.length);
 const results = keptMessages[keptResult];
 
 resultMessage.textContent = user.name + ' ' + results;
+
+easterEgg(user);
+
+
