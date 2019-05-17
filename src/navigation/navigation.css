@@ -120,5 +120,38 @@ button {
     align-items: center;
 }
 
+#model-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(96, 96, 96, 0.5);
+    animation: fade 1s;
+    position: absolute;
+}
 
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
 
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(53, 123, 193);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
