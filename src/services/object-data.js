@@ -287,7 +287,6 @@ const utensils = {
     discarded: 1  
 };
 
-
 const objectData = [backpack, balloon, 
     cactus, camera, cat, clock, computer, controller, 
     diploma, dog, dress, 

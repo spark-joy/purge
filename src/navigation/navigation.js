@@ -8,7 +8,6 @@ import randomArray from '../services/random-array.js';
 loadProfile();
 
 const nav = document.getElementById('items');
-
 const objects = randomArray(objectData);
 const user = api.getUser();
 

@@ -1,9 +1,7 @@
-
 import createModalContent from '../modal/create-modal-content.js';
 
 const modal = document.getElementById('modal');
 const modalWrapper = document.getElementById('model-wrapper');
-
 
 function createLink(objectData) {
     const button = document.createElement('button');

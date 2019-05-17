@@ -11,6 +11,7 @@ const modal = document.getElementById('modal');
 const yesButton = document.getElementById('yes');
 const noButton = document.getElementById('no');
 const modalWrapper = document.getElementById('model-wrapper');
+
 function createModalContent(id) {
     item = api.getItem(id);
 
@@ -30,8 +31,6 @@ formNode.addEventListener('submit', (event) => {
     const formData = new FormData(formNode);
     const value = formData.get('choice-button');
 
-
-    
     if(value === 'yes') {
         user.keptArray.push(item.id); 
     } else {
