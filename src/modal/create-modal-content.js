@@ -8,7 +8,6 @@ const title = document.getElementById('item-title');
 const image = document.getElementById('item-image');
 const description = document.getElementById('item-description');
 const modal = document.getElementById('modal');
-
 const yesButton = document.getElementById('yes');
 const noButton = document.getElementById('no');
 
