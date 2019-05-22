@@ -286,8 +286,9 @@ const utensils = {
     kept: 1,
     discarded: 1  
 };
-
-const objectData = [backpack, balloon, 
+// keep array blocks in line
+const objectData = [
+    backpack, balloon, 
     cactus, camera, cat, clock, computer, controller, 
     diploma, dog, dress, 
     floppyDisk, football, 
@@ -298,6 +299,7 @@ const objectData = [backpack, balloon,
     rope, rug, 
     shirt, suitcase, 
     telescope, tools, topHat, towels, trash, trophy, 
-    utensils];
+    utensils
+];
 
 export default objectData;

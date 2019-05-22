@@ -11,25 +11,29 @@ const nav = document.getElementById('items');
 const objects = randomArray(objectData);
 const user = api.getUser();
 
-setInterval(function(){
+const intervalId = setInterval(function(){
     const user = api.getUser();
-    const combined = [...user.keptArray, ...user.discardedArray];
+    // you don't need a combined array, just a combined length
+    const combinedLength = user.keptArray.length + user.discardedArray.length;
 
-    if(combined.length === objects.length) {
-        clearInterval();
+    if(combinedLength === objects.length) {
+        // Technically not necessary since navigating away, 
+        // but should have id token of the interval:
+        clearInterval(intervalId);
         window.location = './end.html';
     }
 }, 1000);
 
 for(let i = 0; i < objects.length; i++) {
     const object = objects[i];
-    
+
+    // limit conditionality to the thing that varies
+    let objectNav = null;
     if(user.keptArray.includes(object.id) || user.discardedArray.includes(object.id)) {
-        const visitedIcon = createVisitedIcon(object);
-        
-        nav.appendChild(visitedIcon);
+        objectNav = createVisitedIcon(object);
     } else {
-        const link = createLink(object);
-        nav.appendChild(link);
+        objectNav = createLink(object);
     }
+
+    nav.appendChild(objectNav);
 }

@@ -9,9 +9,6 @@ function createLink(objectData) {
     
     image.src = './assets/objects/' + objectData.id + '.png';
 
-    const searchParams = new URLSearchParams();
-    searchParams.set('id', objectData.id);
-
     button.appendChild(image);
     button.classList.add('item-button');
 
@@ -25,7 +22,6 @@ function createLink(objectData) {
         button.classList.remove('item-button');
         button.disabled = true;
 
-        
         createModalContent(objectData.id);
     });
 
